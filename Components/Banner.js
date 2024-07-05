@@ -5,8 +5,10 @@ import { getBanners } from '@/Services/api';
 import moment from 'moment';
 import CircularProgress from '@mui/material/CircularProgress';
 export default function BannerDataTable() {
+    
   const [bannerData, setBannerData] = useState([]);
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const fetchData = async () => {
       try {

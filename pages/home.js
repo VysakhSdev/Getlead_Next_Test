@@ -5,7 +5,7 @@ import React from 'react'
 function Home() {
   return (
     <>
-    <ButtonAppBar  style={{maxWidth:"lg"}}  />
+    <ButtonAppBar    />
     <div style={{ margin: '0 auto', padding: 20 }}>
       <BannerDataTable />
     </div>
